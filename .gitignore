@@ -1,0 +1,19 @@
+/switch files/
+/Luminescent mod/
+/Homescreen Icon/
+/Release/
+/.build/
+/.venv/
+__pycache__/
+*.pyc
+*.keys
+*.nsp
+*.nca
+*.xci
+*.nsz
+*.xcz
+*.tik
+*.cert
+*.sav
+*.bin
+/builder/*.tmp

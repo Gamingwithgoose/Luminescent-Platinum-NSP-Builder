@@ -1,0 +1,30 @@
+Required software
+=================
+
+Windows 10 or Windows 11, x64.
+Python 3.14, 64-bit; tested with Python 3.14.6.
+Official Python downloads: https://www.python.org/downloads/windows/
+Keep pip and the Python launcher enabled during installation.
+
+The build launcher installs these pinned packages in its local .venv:
+  lz4==4.4.5
+  Pillow==12.3.0
+  cryptography==50.0.2
+  cffi==2.1.1
+  pycparser==3.12
+
+An internet connection is needed for the initial Python package installation.
+The builder does not download games, mods, keys, firmware, or artwork.
+It does not require devkitPro, a Nintendo SDK, an emulator, or a connected Switch.
+
+hacPack v1.36 is supplied in tools/, with its license, README, and source ZIP.
+Original upstream: https://github.com/The-4n/hacPack
+Source reference: https://github.com/DarkMatterCore/hacPack
+
+At least 30 GiB free disk space AFTER adding the required inputs.
+Extract to a short writable path, such as C:\LPBuilder.
+7-Zip is recommended for extracting the user-supplied Luminescent mod.
+Official 7-Zip website: https://www.7-zip.org/
+
+The finished NSP requires a modded Switch setup that supports custom packages,
+or a compatible emulator. The builder itself is only needed to create the NSP.
